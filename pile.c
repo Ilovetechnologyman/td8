@@ -3,6 +3,7 @@
 #include <stdlib.h>
 vehicule **tab;
 int sommet = -1;
+
 void init_pile(){
     tab = calloc(1024,sizeof(vehicule));
 }

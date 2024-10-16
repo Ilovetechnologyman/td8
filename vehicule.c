@@ -16,7 +16,6 @@ void init_vehicule(vehicule *v){
 struct vehicule *init_vehicule2(){
     vehicule *v;
     v = malloc(sizeof(vehicule));
-    srand(time(NULL));
     int aleatoire = rand();
     v->puissance = aleatoire;
     v->vitesse_max = (float ) aleatoire;
